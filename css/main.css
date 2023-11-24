@@ -43,6 +43,45 @@
 .gray-bg {
   background: #f9f9ff; }
 
+/* add size */
+
+.product-size {
+  justify-self: end;
+}
+
+.product-size ul li {
+  display: inline-block;
+  margin: 0 0.2em;
+  cursor: pointer;  
+}
+
+.product-size ul li:nth-child(1){
+  margin-left: 0;
+}
+
+.sizes li {
+  width: 3.2em;
+  height: 3.2em;
+  border: 1.5px #000 solid;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 3.2em;
+  font-style: 0.8em;
+  transition: 0.3s;
+}
+
+.sizes li:hover {
+  background: linear-gradient(90deg, #ffba00 0%, #ff6c00 100%);
+  color: white
+}
+
+.sizes {
+  padding: 1em 0 1.2em 0;
+}
+
+
+
+
 /* Section title css
 ============================================================================================ */
 .section-title {
